@@ -1,0 +1,41 @@
+@import "../../Sass/variables";
+@import "../../Sass/typography";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: $backgroundPrimary--darker;
+
+  &__logo {
+    padding: $gutter--primary;
+    cursor: pointer;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: $gutter--primary;
+  }
+
+  li {
+    list-style: none;
+    padding: $Padding--primary;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    color: unset;
+    padding: $Padding--primary;
+    margin: $gutter--primary;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: $font--heading;
+    font-weight: 200;
+  }
+}

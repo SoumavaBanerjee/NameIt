@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto&display=swap");
+@import "./variables";
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: white;
+  font-family: $headingFont;
+}
+
+p,
+a {
+  font-family: $regularFont;
+  color: white;
+}
