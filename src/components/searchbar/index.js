@@ -5,7 +5,6 @@ import { BiSearchAlt } from "react-icons/bi";
 const Searchbar = () => {
   const [input, setInput] = useState("");
   const [barOpened, setBarOpened] = useState(false);
-  const formRef = useRef();
   const inputFocus = useRef();
 
   const onFormSubmit = (e) => {
@@ -37,7 +36,6 @@ const Searchbar = () => {
         }}
         // On submit, call the onFormSubmit function
         onSubmit={onFormSubmit}
-        ref={formRef}
         style={{
           width: barOpened ? "30rem" : "2rem",
           cursor: barOpened ? "auto" : "pointer",
@@ -69,6 +67,3 @@ const Searchbar = () => {
 };
 
 export default Searchbar;
-//   <div className="submitsearch">
-// <span>Search</span>
-// </div>

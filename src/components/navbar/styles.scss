@@ -17,20 +17,19 @@
   ul {
     display: flex;
     justify-content: space-evenly;
-    padding: $gutter--primary;
+    align-items: center;
   }
 
   li {
     list-style: none;
     padding: $Padding--primary;
+    margin: $gutter--primary;
     color: white;
   }
 
   a {
     text-decoration: none;
     color: unset;
-    padding: $Padding--primary;
-    margin: $gutter--primary;
     text-transform: uppercase;
   }
 
