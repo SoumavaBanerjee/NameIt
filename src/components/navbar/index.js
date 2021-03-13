@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./styles.scss";
 
@@ -13,12 +14,6 @@ const Navbar = () => {
         </li>
         <li>
           <a href="#">link2</a>
-        </li>
-        <li>
-          <a href="#">link3</a>
-        </li>
-        <li>
-          <a href="#">link4</a>
         </li>
       </ul>
     </nav>

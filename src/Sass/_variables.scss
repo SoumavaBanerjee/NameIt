@@ -9,6 +9,7 @@ $regularFont: "Roboto", sans-serif;
 // text-colors
 $colorPrimary: #ffff;
 $colorSecondary: rgb(73, 73, 73);
+$colorContainer: #37474f;
 
 // gutters
 
@@ -18,4 +19,7 @@ $gutter--primary: 2rem;
 // font-sizes:
 $font--cta: 5rem;
 $font--regular: 1rem;
-$font--heading: 3rem;
+$font--heading: 1em;
+
+// box-shadows
+$shadowContainer: #00000030 1px 1px 12px 12px;

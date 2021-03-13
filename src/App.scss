@@ -15,5 +15,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: $gutter--primary;
+  margin: 0 $Padding--primary;
+}
+
+.name__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  overflow-wrap: "break-word";
 }

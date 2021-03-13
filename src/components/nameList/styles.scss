@@ -1,0 +1,12 @@
+@import "../../Sass/variables";
+@import "../../Sass/typography";
+
+.Namelist {
+  display: flex;
+  padding: $gutter--primary;
+  width: 80%;
+  height: 50vh;
+  background-color: $colorContainer;
+  box-shadow: $shadowContainer;
+  border-radius: 15px;
+}
