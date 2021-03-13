@@ -3,10 +3,11 @@
 
 .Namelist {
   display: flex;
+  flex-wrap: wrap;
   padding: $gutter--primary;
   width: 80%;
   height: 50vh;
-  background-color: $colorContainer;
+  background-color: $colorSecondary;
   box-shadow: $shadowContainer;
   border-radius: 15px;
 }
